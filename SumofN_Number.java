@@ -6,20 +6,18 @@ public class SumofN_Number {
 
 	public static void main(String[] args) {
 
-		int sum = 0;
-
+		System.out.println("Enter the Number to find sum");
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the number to find sum of Natural Numbers");
-		int num = sc.nextInt();
+		int n = sc.nextInt();
+		int sum=0;
+
 		sc.close();
 
-		for (int i = 1; i <= num; i++) {
-
+		for (int i = 1; i <= n; i++) {
 			sum += i;
-
 		}
-		
-		System.out.println("Sum of " +num+ " Natural Numbers "+sum);
+
+		System.out.println("Sum  of " + n + "number is " + sum);
 
 	}
 
